@@ -1,3 +1,5 @@
+Given two tables employees table and departments table.4 queries to be performed
+
 1.) Merge Two tables such that it includes all the data from employee table regardless of whether any matches were found in the departments table
 output-Table with employee_id,employee_name,department_id,depatment_name,salary
 
