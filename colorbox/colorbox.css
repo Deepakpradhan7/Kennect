@@ -1,4 +1,19 @@
+.para {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.note {
+    color: red;
+    font-size: 13px;
+}
+
 .page-bg {
+    padding: 10px;
+    text-align: center;
+    background-color: #c6f7dc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,6 +57,6 @@
     border-style: solid;
     height: 400px;
     width: 400px;
-    
+    background-color: #b8afae;
     margin: 7px;
 }
