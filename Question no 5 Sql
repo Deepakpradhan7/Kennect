@@ -1,1 +1,43 @@
+1.) Merge Two tables such that it includes all the data from employee table regardless of whether any matches were found in the departments table
+output-Table with employee_id,employee_name,department_id,depatment_name,salary
+
+query->   SELECT 
+            employee_id, employee_name, salary,department_id, department_name
+          FROM
+              deepak.employee e
+                  LEFT JOIN
+            deepak.department d ON e.department_id = d.iddepartment_id
+          LIMIT 0 , 1000
+
+2.) Perform a query for the table to not have any null values.
+
+query->  SELECT 
+          employee_id, employee_name, salary,department_id, department_name
+          FROM
+             deepak.employee e
+              LEFT JOIN
+              deepak.department d ON e.department_id = d.iddepartment_id
+             where d.department_name is not null
+
+3.)Select unique records from the tables
+
+ query->  SELECT 
+            employee_id, employee_name, salary,department_id, department_name
+          FROM
+            deepak.employee e
+                LEFT JOIN
+            deepak.department d ON e.department_id = d.iddepartment_id
+          LIMIT 0 , 1000
+
+4.)Query all the employees names immediately followed by the first letter in the department name column enclosed in parenthesis. 
+
+ query->       SELECT 
+              concat(employee_name, '(',upper(LEFT(department_name, 1)),')')  as employee_nameAndDepartment
+            FROM
+                deepak.employee e
+                    LEFT JOIN
+                deepak.department d ON e.department_id = d.iddepartment_id
+            WHERE
+                department_name IS NOT NULL
+            LIMIT 0 , 1000
 
