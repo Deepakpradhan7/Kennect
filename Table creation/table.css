@@ -1,0 +1,60 @@
+.app-bg {
+    background-color: #b1f0d7;
+    height: 100vh;
+    background-size: cover;
+
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.button {
+    background-color: #4287f5;
+    border-radius: 7px;
+    border-width: 0px;
+    padding: 10px;
+}
+
+.header {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.row {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.user-input-div {
+    display: flex;
+    margin: 10px;
+}
+
+.input {
+    width: 140px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header-style {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    text-decoration: underline;
+}
+
+.tableContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-row-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
