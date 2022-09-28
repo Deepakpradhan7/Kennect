@@ -1,0 +1,47 @@
+.page-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+.button {
+    margin: 5px;
+    padding: 9px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: 100;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+.box {
+    border-width: 1px;
+    border-style: solid;
+    height: 400px;
+    width: 400px;
+    
+    margin: 7px;
+}
